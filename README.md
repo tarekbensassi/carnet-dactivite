@@ -1,4 +1,7 @@
 Symfony Standard Edition
+carnet d'activité de personnel 
+application web 
+Symfony 3.4
 ========================
 
 **WARNING**: This distribution does not support Symfony 4. See the
