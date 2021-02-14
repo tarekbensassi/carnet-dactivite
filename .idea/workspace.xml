@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="697de8f7-161c-41e2-981a-ca369317c39e" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Textarea</find>
+      <find>index</find>
+      <find>login</find>
+    </findStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:generate:entities CRAAdminBundle:Projet" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update  --force" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update -f " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update  --force " />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update  --force " />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update  --force " />
+      <command text="s doctrine:schema:update  --complete " />
+      <command text="s doctrine:schema:update  --force" />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update  --force" />
+      <command text="s doctrine:schema:create" />
+      <command text="s doctrine:generate:entities CRAAdminBundle" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force " />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egyg33k/csv-bundle" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1bEy5qiNFNmbBuYFCUh7HiJVvuf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\appweb\src\CRA\AdminBundle\Entity" />
+      <recent name="C:\xampp\htdocs\appweb\src\CRA\AdminBundle\Form" />
+      <recent name="C:\xampp\htdocs\appweb\app\Resources\views\user" />
+      <recent name="C:\xampp\htdocs\appweb\src\CRA\AdminBundle\Controller" />
+      <recent name="C:\xampp\htdocs\appweb\app\Resources\views\vue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\appweb\src\CRA\AdminBundle\Form" />
+      <recent name="C:\xampp\htdocs\appweb\vendor\friendsofsymfony" />
+      <recent name="C:\xampp\htdocs\appweb\vendor\egyg33k" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="appweb" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PHPUnitRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="697de8f7-161c-41e2-981a-ca369317c39e" name="Default" comment="" />
+      <created>1528574538737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528574538737</updated>
+      <workItem from="1528574540171" duration="1459000" />
+      <workItem from="1528576289112" duration="15968000" />
+      <workItem from="1528660975326" duration="13990000" />
+      <workItem from="1528756690311" duration="6335000" />
+      <workItem from="1529019994536" duration="25100000" />
+      <workItem from="1529086155691" duration="3855000" />
+      <workItem from="1529273595186" duration="849000" />
+      <workItem from="1529304474712" duration="2341000" />
+      <workItem from="1529396511912" duration="7639000" />
+      <workItem from="1529483660028" duration="16290000" />
+      <workItem from="1529571624003" duration="6361000" />
+      <workItem from="1529650016482" duration="5263000" />
+      <workItem from="1530000153924" duration="4788000" />
+      <workItem from="1530004734710" duration="231000" />
+      <workItem from="1530004994716" duration="7202000" />
+      <workItem from="1530084638306" duration="34575000" />
+      <workItem from="1530165954296" duration="38464000" />
+      <workItem from="1530253305583" duration="19948000" />
+      <workItem from="1530518274945" duration="9334000" />
+      <workItem from="1530526550873" duration="6618000" />
+      <workItem from="1530535282484" duration="6083000" />
+      <workItem from="1530599526229" duration="19456000" />
+      <workItem from="1530686460740" duration="10130000" />
+      <workItem from="1530774627674" duration="161000" />
+      <workItem from="1530774815160" duration="104000" />
+      <workItem from="1530775681358" duration="1957000" />
+      <workItem from="1530861024425" duration="5250000" />
+      <workItem from="1531121874253" duration="1732000" />
+      <workItem from="1531153516390" duration="921000" />
+      <workItem from="1531204815580" duration="15172000" />
+      <workItem from="1531290716472" duration="13430000" />
+      <workItem from="1531375499787" duration="9956000" />
+      <workItem from="1531405697768" duration="4967000" />
+      <workItem from="1531470002953" duration="1341000" />
+      <workItem from="1531503479024" duration="359000" />
+      <workItem from="1531727088377" duration="5883000" />
+      <workItem from="1531819299117" duration="10312000" />
+      <workItem from="1531895101025" duration="4212000" />
+      <workItem from="1531983059983" duration="7632000" />
+      <workItem from="1532067189847" duration="949000" />
+      <workItem from="1532420441031" duration="3115000" />
+      <workItem from="1532503338227" duration="28307000" />
+      <workItem from="1532585290787" duration="2104000" />
+      <workItem from="1532595811045" duration="18143000" />
+      <workItem from="1532671186815" duration="15003000" />
+      <workItem from="1532774346639" duration="5696000" />
+      <workItem from="1532936677209" duration="6605000" />
+      <workItem from="1533018863494" duration="20615000" />
+      <workItem from="1533107324994" duration="21889000" />
+      <workItem from="1533193520063" duration="16159000" />
+      <workItem from="1533276447402" duration="9513000" />
+      <workItem from="1534340679862" duration="717000" />
+      <workItem from="1542056268351" duration="591000" />
+      <workItem from="1542400400191" duration="7210000" />
+      <workItem from="1544223795597" duration="220000" />
+      <workItem from="1544733721784" duration="1970000" />
+      <workItem from="1544817641458" duration="1571000" />
+      <workItem from="1544969416251" duration="1377000" />
+      <workItem from="1545051996529" duration="1270000" />
+      <workItem from="1545159777014" duration="1708000" />
+      <workItem from="1545933903795" duration="6855000" />
+      <workItem from="1546880817745" duration="1040000" />
+      <workItem from="1546948179315" duration="1539000" />
+      <workItem from="1548535378736" duration="3827000" />
+      <workItem from="1548879690419" duration="14238000" />
+      <workItem from="1548977838022" duration="1384000" />
+      <workItem from="1553696335792" duration="1540000" />
+      <workItem from="1553707282600" duration="6162000" />
+      <workItem from="1588211370089" duration="1528000" />
+      <workItem from="1606845785712" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="246" width="484" height="275" key="#Notifications" timestamp="1588212247193">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state x="531" y="246" width="484" height="275" key="#Notifications/0.0.1293.768@0.0.1293.768" timestamp="1588212247193" />
+    <state x="100" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588211564556">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state x="100" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1293.768@0.0.1293.768" timestamp="1588211564556" />
+    <state x="424" y="296" key="ComposerInitDialogKey" timestamp="1588212318129">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state x="424" y="296" key="ComposerInitDialogKey/0.0.1293.768@0.0.1293.768" timestamp="1588212318129" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1588212228114">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1293.768@0.0.1293.768" timestamp="1588212228114" />
+    <state x="147" y="28" key="SettingsEditor" timestamp="1588212196284">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state x="147" y="28" key="SettingsEditor/0.0.1293.768@0.0.1293.768" timestamp="1588212196284" />
+    <state x="151" y="552" key="run.anything.popup" timestamp="1588212294536">
+      <screen x="0" y="0" width="1293" height="768" />
+    </state>
+    <state x="151" y="552" key="run.anything.popup/0.0.1293.768@0.0.1293.768" timestamp="1588212294536" />
+  </component>
+</project>

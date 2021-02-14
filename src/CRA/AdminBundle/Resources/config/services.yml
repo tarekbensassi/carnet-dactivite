@@ -1,0 +1,4 @@
+services:
+#    cra_admin.example:
+#        class: CRA\AdminBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

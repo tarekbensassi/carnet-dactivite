@@ -1,0 +1,18 @@
+
+
+{% block body %}
+    <table border="1">
+        <tr>
+            <td>id</td> <td>nom</td> <td>prenom</td>
+        </tr>
+        {% for p  in Personne %}
+        <tr>
+
+                <td>  {{ p.Id }}</td>
+                <td>  {{ p.nom }}</td>
+                <td>  {{ p.prenom }}</td>
+
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

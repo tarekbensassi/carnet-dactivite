@@ -1,0 +1,173 @@
+<?php
+
+namespace CRA\AdminBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
+/**
+ * cramois
+ *
+ * @ORM\Table(name="cramois")
+ * @ORM\Entity(repositoryClass="CRA\AdminBundle\Repository\cramoisRepository")
+ */
+class cramois
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="libellemois", type="string", length=30)
+     */
+    private $libellemois;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="anne", type="integer")
+     */
+    private $anne;
+
+
+    /**
+     * @ORM\ManyToMany(targetEntity="CRA\AdminBundle\Entity\cramois", mappedBy="absencemois")
+     */
+    private $absencemois;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="CRA\AdminBundle\Entity\cramois", mappedBy="projetmois")
+     */
+    private $projetmois;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="CRA\UserBundle\Entity\User")
+     * @Assert\NotBlank(message="Valeur obligatoire")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $user;
+
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLibellemois()
+    {
+        return $this->libellemois;
+    }
+
+    /**
+     * @param string $libellemois
+     */
+    public function setLibellemois($libellemois)
+    {
+        $this->libellemois = $libellemois;
+    }
+
+    /**
+     * @return int
+     */
+    public function getAnne()
+    {
+        return $this->anne;
+    }
+
+    /**
+     * @param int $anne
+     */
+    public function setAnne($anne)
+    {
+        $this->anne = $anne;
+    }
+
+    /**
+     * @return int
+     */
+    public function getJourtravail()
+    {
+        return $this->jourtravail;
+    }
+
+    /**
+     * @param int $jourtravail
+     */
+    public function setJourtravail($jourtravail)
+    {
+        $this->jourtravail = $jourtravail;
+    }
+
+    /**
+     * @return int
+     */
+    public function getAbsence()
+    {
+        return $this->absence;
+    }
+
+    /**
+     * @param int $absence
+     */
+    public function setAbsence($absence)
+    {
+        $this->absence = $absence;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getProjet()
+    {
+        return $this->projet;
+    }
+
+    /**
+     * @param mixed $projet
+     */
+    public function setProjet($projet)
+    {
+        $this->projet = $projet;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * @param mixed $user
+     */
+    public function setUser($user)
+    {
+        $this->user = $user;
+    }
+
+
+    public function __toString() {
+        return $this->nomprojet;
+    }
+
+}
